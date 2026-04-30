@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "app/*": ["./app/*"],
+      "public/*": ["./public/*"],
+      "components/*": ["./app/_components/*"],
+      "magicoon/*": ["./app/_components/icons/magicoon/*"],
+      "ui/*": ["./app/_ui/*"]
+    }
+  }
+}

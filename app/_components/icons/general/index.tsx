@@ -1,0 +1,11 @@
+export { default as IconAirbnb } from "./IconAirbnb";
+export { default as IconFitbit } from "./IconFitbit";
+export { default as IconGoogle } from "./IconGoogle";
+export { default as IconNetflix } from "./IconNetflix";
+export { default as IconSlack } from "./IconSlack";
+export { default as IconUber } from "./IconUber";
+export { default as IconQuotation } from "./IconQuotation";
+export { default as Pattern } from "./Pattern";
+export { default as IconUser } from "./IconUser";
+export { default as IconAgency } from "./IconAgency";
+export { default as IconEnterprise } from "./IconEnterprise";

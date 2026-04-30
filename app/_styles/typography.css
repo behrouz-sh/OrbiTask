@@ -1,0 +1,72 @@
+@utility text-display-xlg {
+  @apply text-[64px]/25.5 font-bold;
+}
+@utility text-display-lg {
+  @apply text-[48px]/19.5 font-bold;
+}
+@utility text-display-md {
+  @apply text-[40px]/16 font-bold;
+}
+@utility text-display-sm {
+  @apply text-[32px]/13 font-bold;
+}
+@utility text-headline-lg {
+  @apply text-[32px]/13 font-normal;
+}
+@utility text-headline-md {
+  @apply text-[28px]/11.5 font-normal;
+}
+@utility text-headline-sm {
+  @apply text-[22px]/9 font-normal;
+}
+@utility text-headline-xsm {
+  @apply text-[16px]/6.5 font-normal;
+}
+@utility text-title-lg {
+  @apply text-[32px]/13 font-semibold;
+}
+@utility text-title-md {
+  @apply text-[24px]/11 font-semibold;
+}
+@utility text-title-sm {
+  @apply text-[20px]/9 font-semibold;
+}
+@utility text-title-xsm {
+  @apply text-[18px]/8 font-semibold;
+}
+@utility text-title-2xsm {
+  @apply text-[16px]/7.5 font-semibold;
+}
+@utility text-title-3xsm {
+  @apply text-[14px]/6.5 font-semibold;
+}
+@utility text-label-lg {
+  @apply text-[24px]/11 font-bold;
+}
+@utility text-label-md {
+  @apply text-[20px]/9 font-bold;
+}
+@utility text-label-sm {
+  @apply text-[16px]/7 font-bold;
+}
+@utility text-label-xsm {
+  @apply text-[14px]/6.5 font-bold;
+}
+@utility text-label-2xsm {
+  @apply text-[12px]/5.5 font-bold;
+}
+@utility text-body-lg {
+  @apply text-[20px]/9 font-normal;
+}
+@utility text-body-md {
+  @apply text-[16px]/7 font-normal;
+}
+@utility text-body-sm {
+  @apply text-[14px]/6 font-normal;
+}
+@utility text-body-xsm {
+  @apply text-[12px]/5.5 font-normal;
+}
+@utility text-body-2xsm {
+  @apply text-[10px]/4.5 font-normal;
+}
