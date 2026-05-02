@@ -9,8 +9,8 @@ import "swiper/css/navigation";
 
 import { IconQuotation } from "components/icons/general";
 
-import userCommentProfile from "public/user-comment-profile.png";
-import sliderImage from "public/slider-img.png";
+import userCommentProfile from "public/user-comment-profile.webp";
+import sliderImage from "public/slider-img.webp";
 
 function Review() {
   return (

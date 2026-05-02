@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Button from "ui/button";
-import taskCard from "public/task-card.png";
+import taskCard from "public/task-card.webp";
 
 function GalaxyView() {
   return (

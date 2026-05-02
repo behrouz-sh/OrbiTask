@@ -1,6 +1,8 @@
 import Button from "ui/button";
 import { IconArrowRightSmall, IconCheckCircle, IconEnvelope } from "magicoon/regular";
 import { IconAgency, IconEnterprise, IconUser } from "components/icons/general";
+import { IconCheckCircleFill, IconQuestionCircleFill } from "magicoon/filled";
+import Table from "../Table";
 
 const featureData = {
   free: ["Manage personal tasks", "Access anywhere", "Core features included"],
@@ -8,7 +10,7 @@ const featureData = {
   enterprise: ["All included in Agency", "Custom integrations & support", "Dedicated account manager"],
 };
 
-function PricingAndPlans() {
+function PricingAndPlans({ table = false }) {
   return (
     <section className="container">
       <div className="space-y-6 text-center">
@@ -109,6 +111,109 @@ function PricingAndPlans() {
           </ul>
         </div>
       </div>
+      {table && (
+        <Table className="mt-6">
+          <Table.Header>Task Management</Table.Header>
+          <Table.Content>
+            <Table.Row>
+              <Table.FeatureName>Customizable Workflows</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.Text>100</Table.Text>
+                <Table.Text>100</Table.Text>
+                <Table.Text>100</Table.Text>
+                <Table.TextBlue>Unlimited</Table.TextBlue>
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Project Planning</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.IconCheckCircle />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Time Tracking</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+          </Table.Content>
+          <Table.Header>Visualization</Table.Header>
+          <Table.Content>
+            <Table.Row>
+              <Table.FeatureName>Gantt Charts</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Agile Methodology Support</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Reporting and Analytics</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Team and Individual Dashboards</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+          </Table.Content>
+          <Table.Header>Integarations</Table.Header>
+          <Table.Content>
+            <Table.Row>
+              <Table.FeatureName>Document Management</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Client Collaboration</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+            <Table.Row>
+              <Table.FeatureName>Mobile App Integration</Table.FeatureName>
+              <Table.FeatureValue>
+                <Table.DashedLine />
+                <Table.DashedLine />
+                <Table.IconCheckCircle />
+                <Table.IconCheckCircle />
+              </Table.FeatureValue>
+            </Table.Row>
+          </Table.Content>
+        </Table>
+      )}
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import integration_image from "public/integration.png";
+import integration_image from "public/integration.webp";
 
 function Integration() {
   return (

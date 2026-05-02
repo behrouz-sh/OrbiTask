@@ -6,15 +6,15 @@ import NavMobile from "./nav-mobile";
 import Button from "../../_ui/button";
 import Logo from "../../_ui/logo";
 
-function Header() {
+function Header({ them = "dark" }) {
   return (
-    <header className="z-50 flex justify-between items-center py-4 container">
+    <header className="z-50 relative flex justify-between items-center py-4 container">
       <div className="flex items-center gap-x-6 lg:gap-x-12">
         <Link href="/">
-          <Logo type="blue" size={32} className="hidden md:hidden sm:block lg:block" />
+          <Logo type="blue" size={32} className={`hidden md:hidden sm:block lg:block ${them === "dark" ? "text-neutral-900" : "text-white"}`} />
           <Logo type="blue" variant="mark" className="sm:hidden lg:hidden md:block size-8" />
         </Link>
-        <Nav />
+        <Nav them={them} />
       </div>
       <div className="hidden md:flex gap-x-2">
         <Button to="/signup" style="outlined" size="lg">
@@ -24,7 +24,7 @@ function Header() {
           Login
         </Button>
       </div>
-      <NavMobile />
+      <NavMobile them={them} />
     </header>
   );
 }

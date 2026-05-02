@@ -9,3 +9,4 @@ export { default as Pattern } from "./Pattern";
 export { default as IconUser } from "./IconUser";
 export { default as IconAgency } from "./IconAgency";
 export { default as IconEnterprise } from "./IconEnterprise";
+export { default as StoryPattern } from "./StoryPattern";

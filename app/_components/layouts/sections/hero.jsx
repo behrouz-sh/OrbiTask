@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Button from "ui/button";
 import { IconArrowRight, IconHand } from "magicoon/regular";
-import heroImage from "public/image-hero.png";
+import heroImage from "public/home-hero.webp";
 
 function Hero() {
   return (
