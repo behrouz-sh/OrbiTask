@@ -3,8 +3,8 @@ import Link from "next/link";
 import Nav from "./nav";
 import NavMobile from "./nav-mobile";
 
-import Button from "../../_ui/button";
-import Logo from "../../_ui/logo";
+import Button from "ui/button";
+import Logo from "ui/logo";
 
 function Header({ them = "dark" }) {
   return (
@@ -20,7 +20,7 @@ function Header({ them = "dark" }) {
         <Button to="/signup" style="outlined" size="lg">
           Sign Up
         </Button>
-        <Button to="/signup" style="filled" size="lg">
+        <Button to="/login" style="filled" size="lg">
           Login
         </Button>
       </div>

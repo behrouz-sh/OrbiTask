@@ -102,9 +102,10 @@
   --shadow-high: 2px 6px 14px rgba(65, 74, 83, 0.2);
   --shadow-blue: 0 0 64px 8px rgba(42, 111, 243, 0.09);
 }
+
 @layer utilities {
   .container {
-    @apply mx-auto px-5;
+    @apply mx-auto px-5 sm:px-0;
   }
 }
 
@@ -132,5 +133,4 @@ body {
     transform: translateX(-50%);
   }
 }
-
-/* فقط در حالت موبایل (پایین‌تر از md) انیمیشن اجرا شود */
+/*  */

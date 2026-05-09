@@ -1,5 +1,5 @@
-import Logo from "../../_ui/logo";
-import Button from "../../_ui/button";
+import Logo from "ui/logo";
+import Button from "ui/button";
 
 function Footer() {
   return (

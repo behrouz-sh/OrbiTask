@@ -1,4 +1,4 @@
-import Logo from "./_ui/logo";
+import Logo from "ui/logo";
 
 function Loading() {
   return (
