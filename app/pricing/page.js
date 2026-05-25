@@ -1,8 +1,8 @@
-import PricingAndPlans from "components/layouts/sections/pricing-plans";
-import FAQ from "components/layouts/sections/faq";
+import PricingAndPlans from '@/app/_components/landing-page/sections/PricingAndPlans';
+import FAQ from '@/app/_components/landing-page/sections/FAQ';
 
 export const metadata = {
-  title: "Pricing - OrbiTask",
+  title: 'Pricing - OrbiTask',
 };
 function Pricing() {
   return (

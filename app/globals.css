@@ -1,10 +1,12 @@
-@import "tailwindcss";
-@import "./_styles/typography.css";
+@import 'tailwindcss';
+@import './_styles/typography.css';
 
 @theme {
   --swiper-pagination-bullet-size: 14px;
   --swiper-pagination-bullet-inactive-opacity: 1;
-  --swiper-pagination-bullet-inactive-color: var(--color-primary-100);
+  --swiper-pagination-bullet-inactive-color: var(
+    --color-primary-100
+  );
   --swiper-pagination-color: var(--color-primary-500);
   --swiper-pagination-bullet-horizontal-gap: 12px;
   --swiper-pagination-bottom: 0px;
@@ -94,7 +96,11 @@
   --color-semantic-info-900: #063e6b;
   --color-semantic-info-950: #042844;
 
-  --gradient-2: linear-gradient(to bottom, rgba(42, 111, 243, 0.1) 0%, rgba(42, 111, 243, 0) 100%);
+  --gradient-2: linear-gradient(
+    to bottom,
+    rgba(42, 111, 243, 0.1) 0%,
+    rgba(42, 111, 243, 0) 100%
+  );
 
   --shadow-*: initial;
   --shadow-low: 2px 2px 7px rgba(65, 74, 83, 0.08);
@@ -115,12 +121,12 @@ body {
 
 @layer components {
   .price-card::before {
-    @apply content-[''] rotate-10 absolute w-3/4 h-38 rounded-full  -right-6 -top-14;
+    @apply absolute -top-14 -right-6 h-38 w-3/4 rotate-10 rounded-full content-[''];
     background: var(--gradient-2);
   }
   @media (max-width: 640px) {
     .mobile-marquee {
-      @apply flex gap-10 animate-[marquee_20s_linear_infinite];
+      @apply flex animate-[marquee_20s_linear_infinite] gap-10;
       width: max-content;
     }
   }
@@ -133,4 +139,16 @@ body {
     transform: translateX(-50%);
   }
 }
-/*  */
+.login-slider .swiper-pagination-bullet-active,
+.login-slider .swiper-pagination-bullet {
+  @apply size-3! rounded-xl!;
+}
+.login-slider .swiper-pagination-bullet {
+  @apply bg-primary-300! opacity-100;
+}
+.login-slider .swiper-pagination-bullet-active {
+  @apply w-12! bg-white!;
+}
+.login-slider .swiper-pagination {
+  @apply static! mt-1.5;
+}

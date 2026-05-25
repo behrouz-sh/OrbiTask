@@ -3,10 +3,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "app/*": ["./app/*"],
-      "public/*": ["./public/*"],
-      "components/*": ["./app/_components/*"],
-      "magicoon/*": ["./app/_components/icons/magicoon/*"],
+      "public/*": ["public/*"],
+      "components": ["app/_components/index.js"],
+      "magicoon": ["app/_components/icons/magicoon"],
+      "icons": ["app/_components/icons/general"],
       "ui/*": ["./app/_ui/*"]
     }
   }

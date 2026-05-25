@@ -1,5 +1,5 @@
-import Header from "components/layouts/Header";
-import Footer from "components/layouts/Footer";
+import Header from "@/app/_components/landing-page/Header";
+import Footer from "@/app/_components/landing-page/Footer";
 
 export default function Layout({ children }) {
   return (

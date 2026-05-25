@@ -1,11 +1,10 @@
-import Header from "components/layouts/Header";
-import Footer from "components/layouts/Footer";
+import { Header, Footer } from 'components';
 
 export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main className="space-y-16 my-16">{children}</main>
+      <main className='my-16 space-y-16'>{children}</main>
       <Footer />
     </>
   );

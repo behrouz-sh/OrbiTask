@@ -1,11 +1,10 @@
-import Header from "components/layouts/Header";
-import Footer from "components/layouts/Footer";
+import { Header, Footer } from 'components';
 
 export default function Layout({ children }) {
   return (
     <>
-      <Header them="light" />
-      <main className="space-y-22">{children}</main>
+      <Header them='light' />
+      <main className='space-y-22'>{children}</main>
       <Footer />
     </>
   );
