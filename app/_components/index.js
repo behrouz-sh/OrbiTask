@@ -1,12 +1,13 @@
 export { default as Logo } from './Logo';
 export { default as Button } from './Button';
 
-// landing-page
+// #landing-page
 export { default as Accordion } from './landing-page/Accordion';
 export { default as Feature } from './landing-page/Feature';
 export { default as Toggle } from './landing-page/Toggle';
 export { default as Verification } from './landing-page/Verification';
-// sections
+
+// #sections
 export { default as Header } from './landing-page/Header';
 export { default as Footer } from './landing-page/Footer';
 export { default as Hero } from './landing-page/sections/Hero';
@@ -26,12 +27,13 @@ export { default as GetInTouch } from './landing-page/sections/GetInTouch';
 export { default as ContactHero } from './landing-page/sections/ContactHero';
 export { default as ContactInfo } from './landing-page/sections/ContactInfo';
 
-// input
+// #input
 export { default as Input } from './input/Input';
 export { default as AlertUnderInput } from './input/AlertUnderInput';
 export { default as CodeBoxInput } from './input/CodeBoxInput';
 export { default as Select } from './input/Select';
 export { default as VerifyCodeInput } from './input/VerifyCodeInput';
+export { default as SearchBar } from './input/SearchBar';
 export { default as Checkbox } from './checkbox';
 
 // login & signup  form
@@ -45,3 +47,6 @@ export { default as SetupFirstProjectForm } from './login-signup/SetupFirstProje
 
 // progress-bar
 export { default as Progress } from './progress-bar/Progress';
+
+// #workspace
+export { default as AddNewProjects } from './workspace/AddNewProjects';
