@@ -1,0 +1,27 @@
+import * as React from "react";
+const SvgIconLightEmergencyOnFill = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18.501 19c.828 0 1.5.671 1.5 1.499V22H4v-1.5A1.5 1.5 0 0 1 5.5 19z"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="m12 6 .357.009c3.67.174 6.383 3.031 6.383 7.691v3.515c0 .167-.13.3-.296.3-1.787-.014-11.101-.014-12.888 0a.295.295 0 0 1-.296-.3L5.259 13.7c0-4.81 2.89-7.7 6.74-7.7m0 2.67c-2.1 0-3.86 1.63-4.03 3.72-.03.41.28.77.69.8h.06c.39 0 .72-.29.75-.69A2.51 2.51 0 0 1 12 10.17a.75.75 0 1 0 0-1.5"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M3.47 3.469a.75.75 0 0 1 1.062 0l1.5 1.5A.751.751 0 0 1 4.97 6.03l-1.5-1.5a.75.75 0 0 1 0-1.061M19.47 3.469a.751.751 0 0 1 1.06 1.061l-1.5 1.5a.75.75 0 0 1-1.06 0 .75.75 0 0 1 0-1.061zM12 1.25a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0V2a.75.75 0 0 1 .75-.75"
+    />
+  </svg>
+);
+export default SvgIconLightEmergencyOnFill;

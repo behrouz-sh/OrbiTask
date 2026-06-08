@@ -1,0 +1,27 @@
+import * as React from "react";
+const SvgIconCreditCardConvert = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M16 16.25a.75.75 0 0 1 .75.75v.5c0 .414.336.75.75.75H22a.751.751 0 0 1 .53 1.28l-1 1a.749.749 0 0 1-1.237-.78H17.5a2.25 2.25 0 0 1-2.25-2.25V17a.75.75 0 0 1 .75-.75"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M17 3.25c2.418 0 3.75 1.332 3.75 3.75v3a.75.75 0 0 1-1.5 0v-.25H2.75V15c0 1.577.673 2.25 2.25 2.25h8a.75.75 0 0 1 0 1.5H5c-2.418 0-3.75-1.332-3.75-3.75V7c0-2.418 1.332-3.75 3.75-3.75zM5 4.75c-1.577 0-2.25.673-2.25 2.25v1.25h16.5V7c0-1.577-.673-2.25-2.25-2.25z"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M16.857 12.764a.75.75 0 0 1 .674.206.75.75 0 0 1 .177.78H20.5A2.25 2.25 0 0 1 22.75 16v.5a.75.75 0 0 1-1.5 0V16a.75.75 0 0 0-.75-.75H16a.751.751 0 0 1-.53-1.28l1-1a.75.75 0 0 1 .387-.206M9 13.25a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1 0-1.5z"
+    />
+  </svg>
+);
+export default SvgIconCreditCardConvert;

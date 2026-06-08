@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconVideoIncoming = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M11.47 8.97a.75.75 0 1 1 1.06 1.061l-3.72 3.72H10a.75.75 0 0 1 0 1.5H7a.753.753 0 0 1-.75-.75v-3a.75.75 0 0 1 1.5 0v1.19z"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M14 4.25c2.418 0 3.75 1.332 3.75 3.75v.44l2.563-2.051a1.5 1.5 0 0 1 1.18-.31q.209.034.407.129c.524.253.85.772.85 1.354v8.878c0 .581-.327 1.1-.85 1.352a1.5 1.5 0 0 1-.778.144 1.5 1.5 0 0 1-.808-.324l-2.564-2.05V16c0 2.418-1.332 3.75-3.75 3.75H5c-2.418 0-3.75-1.332-3.75-3.75V8c0-2.418 1.332-3.75 3.75-3.75zm-9 1.5c-1.577 0-2.25.673-2.25 2.25v8c0 1.577.673 2.25 2.25 2.25h9c1.577 0 2.25-.673 2.25-2.25V8c0-1.577-.673-2.25-2.25-2.25zm12.75 4.611v3.279l3.5 2.8V7.562z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgIconVideoIncoming;

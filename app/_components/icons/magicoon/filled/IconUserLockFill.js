@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconUserLockFill = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M19 13.249c1.379 0 2.5 1.122 2.5 2.5v1.325c.655.162 1 .65 1 1.497v2.357q0 1.57-1.5 1.571h-4q-1.5 0-1.5-1.571V18.57c0-.848.345-1.335 1-1.497V15.75c0-1.378 1.121-2.5 2.5-2.5m0 1.501c-.552 0-1 .449-1 1V17h2v-1.25c0-.551-.448-1-1-1"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="M12 12.5c1.444 0 2.558.373 3.389.977.073.053.11.141.116.189a.32.32 0 0 1-.032.193A4 4 0 0 0 15 15.75v.44c-.64.53-1 1.36-1 2.38v2.36c0 .09 0 .18.01.26v.03c-.01.16-.15.28-.3.28H6c-2.29 0-3.5-1.2-3.5-3.48 0-2.55 1.44-5.52 5.5-5.52zM10.009 2.5c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4"
+    />
+  </svg>
+);
+export default SvgIconUserLockFill;

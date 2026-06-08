@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconPopsicle = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M10.5 6.25c.41 0 .75.34.75.75v6a.755.755 0 0 1-.9.734.754.754 0 0 1-.6-.734V7c0-.41.34-.75.75-.75M13.5 6.25c.41 0 .75.34.75.75v6c0 .41-.34.75-.75.75s-.75-.34-.75-.75V7c0-.41.34-.75.75-.75"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M12 2.25c3.17 0 5.75 2.58 5.75 5.75v6.5a2.24 2.24 0 0 1-.515 1.43 2.3 2.3 0 0 1-.664.547 2.24 2.24 0 0 1-1.071.273h-2.75V21c0 .41-.34.75-.75.75s-.75-.34-.75-.75v-4.25H8.5c-1.24 0-2.25-1.01-2.25-2.25V8c0-3.17 2.58-5.75 5.75-5.75m0 1.5A4.26 4.26 0 0 0 7.75 8v6.5c0 .41.34.75.75.75h7c.41 0 .75-.34.75-.75V8A4.26 4.26 0 0 0 12 3.75"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgIconPopsicle;

@@ -1,8 +1,0 @@
-import * as React from "react";
-const SvgIconLock = (props) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="none" viewBox="0 0 24 24" {...props}>
-    <path fill="currentcolor" d="M12.02 12.75c.69 0 1.25.56 1.25 1.25 0 .412-.212.76-.52.987V17a.75.75 0 0 1-1.5 0v-2.038a1.23 1.23 0 0 1-.485-.962c0-.69.555-1.25 1.245-1.25z" />
-    <path fill="currentcolor" fillRule="evenodd" d="M12 2.25A4.756 4.756 0 0 1 16.75 7v1.304c1.938.258 3 1.543 3 3.696v6c0 2.418-1.332 3.75-3.75 3.75H8c-2.418 0-3.75-1.332-3.75-3.75v-6c0-2.154 1.062-3.44 3-3.696V7A4.756 4.756 0 0 1 12 2.25m-4 7.5c-1.577 0-2.25.673-2.25 2.25v6c0 1.577.673 2.25 2.25 2.25h8c1.577 0 2.25-.673 2.25-2.25v-6c0-1.577-.673-2.25-2.25-2.25zm4-6A3.254 3.254 0 0 0 8.75 7v1.25h6.5V7A3.254 3.254 0 0 0 12 3.75" clipRule="evenodd" />
-  </svg>
-);
-export default SvgIconLock;

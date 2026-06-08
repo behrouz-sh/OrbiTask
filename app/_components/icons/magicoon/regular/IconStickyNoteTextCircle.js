@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconStickyNoteTextCircle = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M12 13.25a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1 0-1.5zM16 8.75a.75.75 0 0 1 0 1.5H8.111a.75.75 0 0 1 0-1.5z"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M12.186 1.25c5.825 0 10.564 4.74 10.564 10.565a7.18 7.18 0 0 1-2.118 5.114l-3.703 3.703a7.19 7.19 0 0 1-5.113 2.118c-5.825 0-10.565-4.739-10.565-10.564v-.37c0-5.827 4.74-10.566 10.565-10.566zm-.37 1.5c-5 0-9.066 4.066-9.066 9.065v.37c0 5 4.067 9.065 9.065 9.065.573 0 1.124-.11 1.657-.27v-2.314a5.2 5.2 0 0 1 5.194-5.194h2.313c.16-.533.27-1.084.27-1.657 0-4.842-3.815-8.81-8.599-9.053l-.465-.012zm6.851 12.222a3.7 3.7 0 0 0-3.694 3.694v1.635a6 6 0 0 0 .896-.73l3.702-3.703q.415-.416.73-.896z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgIconStickyNoteTextCircle;

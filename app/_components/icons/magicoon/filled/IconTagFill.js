@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconTagFill = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      d="M18.732 10.267a.3.3 0 0 1 .424 0l.803.803c1.41 1.41 1.36 2.77.001 4.14l-4.76 4.77c-1.37 1.36-2.78 1.36-4.14 0l-.804-.813a.3.3 0 0 1 0-.424z"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M10.688 3c.777 0 1.523.31 2.072.86l4.938 4.948a.3.3 0 0 1 0 .424l-8.476 8.476a.3.3 0 0 1-.424 0L3.86 12.771A2.94 2.94 0 0 1 3 10.694V4.95A1.95 1.95 0 0 1 4.95 3zM6.992 6A.996.996 0 0 0 6 7c0 .552.452 1 1.002 1A1 1 0 0 0 8 7c0-.552-.446-1-.998-1z"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgIconTagFill;

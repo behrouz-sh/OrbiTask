@@ -1,0 +1,25 @@
+import * as React from "react";
+const SvgIconStopCircle = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M14.189 7.751c1.29 0 2.061.772 2.061 2.062v4.375c0 1.291-.771 2.062-2.062 2.062H9.814q-.121 0-.236-.009c-1.148-.09-1.826-.842-1.826-2.052V9.813c0-1.292.771-2.062 2.062-2.062zM9.654 9.255c-.33.025-.405.153-.405.557v4.376c0 .461.1.561.563.561h4.374q.087 0 .157-.005c.33-.025.405-.152.405-.556V9.811c0-.404-.077-.532-.405-.557l-.156-.005H9.811q-.086 0-.157.005"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M12 1.25c5.928 0 10.75 4.822 10.75 10.75S17.928 22.75 12 22.75 1.25 17.928 1.25 12 6.072 1.25 12 1.25m0 1.5c-5.101 0-9.25 4.149-9.25 9.25s4.149 9.25 9.25 9.25 9.25-4.149 9.25-9.25S17.101 2.75 12 2.75"
+      clipRule="evenodd"
+    />
+  </svg>
+);
+export default SvgIconStopCircle;

@@ -1,0 +1,23 @@
+import * as React from "react";
+const SvgIconStickyNoteSquareSmileFill = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1em"
+    height="1em"
+    fill="none"
+    viewBox="0 0 24 24"
+    {...props}
+  >
+    <path
+      fill="currentColor"
+      fillRule="evenodd"
+      d="M17.62 3C20 3 21 4 21 6.38v7.38c0 .16-.02.33-.05.49H18.5a4.26 4.26 0 0 0-4.25 4.25l-.01.01v2.45c-.16.03-.32.05-.49.05H6.37c-2.38 0-3.38-1-3.38-3.38V6.38C2.99 4 3.99 3 6.37 3zm-2.96 11.21a.75.75 0 0 0-1-.34c-1.02.5-2.27.51-3.34 0a.75.75 0 0 0-1 .35c-.18.37-.02.82.35 1v.01c.73.35 1.48.53 2.31.53q1.245 0 2.34-.54c.37-.19.52-.64.34-1.01M9.01 8.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5m6 0a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5"
+      clipRule="evenodd"
+    />
+    <path
+      fill="currentColor"
+      d="m20.11 15.88-4.24 4.24c-.004.003-.09.071-.13.11V18.5c0-1.52 1.23-2.75 2.75-2.75h1.73s-.07.09-.11.13"
+    />
+  </svg>
+);
+export default SvgIconStickyNoteSquareSmileFill;
